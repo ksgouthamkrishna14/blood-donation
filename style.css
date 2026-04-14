@@ -67,6 +67,10 @@ th {
     font-weight: bold;
 }
 
+tr:nth-child(odd) {
+    background-color:#FF7A7B;
+}
+
 tr:nth-child(even) {
     background-color:#FFA3A4;
 }
