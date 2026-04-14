@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation Directory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blood Donation Directory</h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search by name, blood group, or location...">
+            <button onclick="filterDonors()">Search</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Donor ID</th>
+                    <th>Name</th>
+                    <th>Blood Group</th>
+                    <th>Phone Number</th>
+                    <th>Age</th>
+                    <th>Location</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody id="donorTableBody">
+                <!-- Donor data will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
